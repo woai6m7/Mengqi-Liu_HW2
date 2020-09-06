@@ -145,7 +145,7 @@ plt.tight_layout()
 plt.show()
 
 from sklearn import metrics
-k_range=range(1,10)
+k_range=range(1,26)
 scores=[]
 for k in k_range:
     knn=KNeighborsClassifier(n_neighbors=k)
